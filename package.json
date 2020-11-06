@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jexytd/JexytdWhitelist/issues"
   },
-  "homepage": "https://github.com/Jexytd/JexytdWhitelist#readme"
+  "homepage": "https://github.com/Jexytd/JexytdWhitelist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
