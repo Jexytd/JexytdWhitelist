@@ -1,16 +1,16 @@
 {
-  "name": "jexytdwhitelist",
+  "name": "JexytdWhitelist",
   "version": "1.0.0",
   "description": "",
   "main": "WhitelistServer.js",
   "scripts": {
-    "start": "node WhitelistServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jexytd/JexytdWhitelist.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
