@@ -14,13 +14,13 @@ function hmac(secret, data){
 
 app.get("/checkWhitelist", (request, response) => {
     const Key = request.query.Key;
-    const Gamer = request.query.gamer;
+    const user = request.query.user;
 
-    if(Key && Gamer){
+    if(Key && user){
         const isKeyValid = Keys.find((key) => key !== null && Key == key);
 
         if(isKeyValid){
-            response.send(hmac(secretKey2, Key + Gamer)) // we'll send the data of the whitelist response to the client once the key is valid
+            response.send(hmac(secretKey2, Key + user)) // we'll send the data of the whitelist response to the client once the key is valid
         }
         else{
             response.send("Not Whitelisted");
