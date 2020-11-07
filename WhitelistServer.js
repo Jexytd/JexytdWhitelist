@@ -2,7 +2,7 @@
 const express = require("express")
 const app = express()
 
-const Keys = ["123", "simplewhitelist"]; // our key database of course you can replace it with a query prepared request to a mysql data base or mongodb
+const Keys = ["free", "2470661BCF881451194B6B461AF34A01118A9E84FAE2578D4196DAA7F34CC2A1D554FEE53BB3AE17E2DD01F6C04B985316BF303503E8275A9B947855A37BDF02"]; // our key database of course you can replace it with a query prepared request to a mysql data base or mongodb
 const secretKey2 = "E);{Q6_<bkrEo;KEKWzlFoopANJai?}5vyus3l@>+?=>O}uL-(A}M/PJ`w";
 const Crypto = require("crypto");
 
