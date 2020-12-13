@@ -2,7 +2,7 @@
 const express = require("express")
 const app = express()
 
-const Keys = ["LrFdO8", "Dq1j23", "2Y0zpu"]; // our key database of course you can replace it with a query prepared request to a mysql data base or mongodb
+const Keys = ["LrFdO8", "Ta67uk", "2Y0zpu", "n9kGCD"]; // our key database of course you can replace it with a query prepared request to a mysql data base or mongodb
 const secretKey2 = "E);{Q6_<bkrEo;KEKWzlFoopANJai?}5vyus3l@>+?=>O}uL-(A}M/PJ`w";
 const Crypto = require("crypto");
 
